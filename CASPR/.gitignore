@@ -1,0 +1,11 @@
+$ git status
+
+# Untracked files:
+data/config
+data/logs
+data/videos/
+data/trajectories/
+GUI/config
+scripts/local/*
+logs/
+/**/*.asv
