@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Template generated XML file for rigid bodies in CASPR -->
-<links display_range="-0.5 2.5 -0.5 2.5 -0.5 2.5" view_angle="-37 32">
+<links display_range="-0.5 0.5 -1 1 -1 1" view_angle="-10 10">
     <link_rigid num="1" name="END_EFFECTOR">
-        <joint type="SPATIAL_EULER_XYZ" q_initial="1.17 1.17 1.17 0 0 0"/>
+        <joint type="SPATIAL_EULER_XYZ" q_initial="0 0 0 0 0 0"/>
         <physical>
             <mass>1</mass>
             <com_location>0 0 0</com_location>
