@@ -24,3 +24,4 @@ SpiderBot UR3,/HCDM/SpiderBot_UR3/,SpiderBot_UR3_bodies.xml,SpiderBot_UR3_cables
 CALEX,/MCDM/CALEX/,CALEX_bodies.xml,CALEX_cables.xml,CALEX_trajectories.xml,
 MACARM,/SCDM/spatial_manipulators/MACARM/,MACARM_bodies.xml,MACARM_cables.xml,MACARM_trajectories.xml,
 C-Leg,/MCDM/C-Leg/,C-Leg_bodies.xml,C-Leg_cables.xml,C-Leg_trajectories.xml,
+1D_ASDARAC,/SCDM/planar_manipulators/1D_ASDARAC/,1D_ASDARAC_bodies.xml,1D_ASDARAC_cables.xml,1D_ASDARAC_trajectories.xml,
