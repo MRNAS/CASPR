@@ -2,30 +2,41 @@
 <!DOCTYPE cables [
   <!ATTLIST cable_set id ID #REQUIRED>
 ]>
-<!-- Template generated XML file for cables in CASPR -->
+<!-- This is the code for the 1D ASDARAC Model -->
 <cables default_cable_set="original">
   <!-- Use cable set tags for each possible set of cable attachments -->  
   <cable_set id="original">
-      <!-- For each cable add a tag. Refer to CASPR documentation for
-      detailed explanation of the different cable types and the required
-      fields for those types -->
-      <!--
-      <cable_ideal name="#" attachment_reference="com">
+      <cable_ideal name="1" attachment_reference="com">
       <properties>
-        <force_min>f_min</force_min>
-        <force_max>f_max</force_max>
+        <force_min>0</force_min>
+        <force_max>310</force_max>
       </properties>
       <attachments>
         <attachment>
           <link>0</link>
-          <location>x_A0 y_A0 z_A0</location>
+          <location>0.025 0 0</location>
         </attachment>
         <attachment>
           <link>1</link>
-          <location>x_A1 y_A1 z_A1</location>
+          <location>.125 0 0</location>
         </attachment>
       </attachments>
     </cable_ideal>
-    -->
+    <cable_ideal name="2" attachment_reference="com">
+      <properties>
+        <force_min>0</force_min>
+        <force_max>310</force_max>
+      </properties>
+      <attachments>
+        <attachment>
+          <link>0</link>
+          <location>-0.025 0 0</location>
+        </attachment>
+        <attachment>
+          <link>1</link>
+          <location>-0.125 0 0</location>
+        </attachment>
+      </attachments>
+    </cable_ideal>
   </cable_set>
 </cables>
